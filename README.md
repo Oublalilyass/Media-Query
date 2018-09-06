@@ -10,7 +10,7 @@ To target specific media for the <link>, <source>, and other HTML elements.
 To test and monitor media states using the Window.matchMedia() and MediaQueryList.addListener() JavaScript methods.
 Note: The examples on this page use CSS's @media for illustrative purposes, but the basic syntax remains the same for all types of media queries.
 --------
-Syntax
+<h2> Syntax </2>
 ------
 A media query is composed of an optional media type and any number of media feature expressions. Multiple queries can be combined in various ways by using logical operators. Media queries are case-insensitive.
 
@@ -25,10 +25,13 @@ Media types describe the general category of a device. Except when using the not
 all
 Suitable for all devices.
 print
+-----
 Intended for paged material and documents viewed on a screen in print preview mode. (Please see paged media for information about formatting issues that are specific to these formats.)
 screen
+------
 Intended primarily for screens.
 speech
+-------
 Intended for speech synthesizers.
 Deprecated media types: CSS2.1 and Media Queries 3 defined several additional media types (tty, tv, projection, handheld, braille, embossed, and aural), but they were deprecated in Media Queries 4 and shouldn't be used. The aural type has been replaced by speech, which is similar.
 Link to sectionMedia features
