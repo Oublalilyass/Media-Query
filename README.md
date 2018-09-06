@@ -10,7 +10,7 @@ To target specific media for the <link>, <source>, and other HTML elements.
 To test and monitor media states using the Window.matchMedia() and MediaQueryList.addListener() JavaScript methods.
 Note: The examples on this page use CSS's @media for illustrative purposes, but the basic syntax remains the same for all types of media queries.
 --------
-<h2> Syntax </2>
+<h1> Syntax </h1>
 ------
 A media query is composed of an optional media type and any number of media feature expressions. Multiple queries can be combined in various ways by using logical operators. Media queries are case-insensitive.
 
